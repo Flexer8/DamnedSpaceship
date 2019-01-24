@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1548358691 source:/home/nikolay/code/cpp/DamnedSpaceship/main.cpp
+1548359088 source:/home/nikolay/code/cpp/DamnedSpaceship/main.cpp
 	<SFML/Graphics.hpp>
 
 1539885013 /home/nikolay/code/cpp/DamnedSpaceship/lib/SFML-2.5.1/include/SFML/Graphics.hpp

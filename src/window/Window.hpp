@@ -26,7 +26,7 @@ public:
     void Draw(sf::Drawable drawable);
 
 private:
-    void Setup();
+    void Setup(const std::string& title, const sf::Vector2u& window_size);
     void Create();
     void Destroy();
 
