@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1548358691 source:/home/nikolay/code/cpp/DamnedSpaceship/main.cpp
+1548359088 source:/home/nikolay/code/cpp/DamnedSpaceship/main.cpp
 	<SFML/Graphics.hpp>
 
 1539885013 /home/nikolay/code/cpp/DamnedSpaceship/lib/SFML-2.5.1/include/SFML/Graphics.hpp
@@ -410,4 +410,21 @@
 	<SFML/Graphics/PrimitiveType.hpp>
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
+
+1548540003 source:/home/nikolay/code/cpp/DamnedSpaceship/src/game/Game.cpp
+	"Game.hpp"
+	"../window/Window.hpp"
+
+1548362942 /home/nikolay/code/cpp/DamnedSpaceship/src/game/Game.hpp
+	<SFML/System/Time.hpp>
+	<SFML/System/Clock.hpp>
+	"../window/Window.hpp"
+
+1548540135 /home/nikolay/code/cpp/DamnedSpaceship/src/window/Window.hpp
+	<string>
+	<SFML/Graphics.hpp>
+
+1548540241 source:/home/nikolay/code/cpp/DamnedSpaceship/src/window/Window.cpp
+	"Window.hpp"
+	<SFML/Graphics.hpp>
 
