@@ -47,6 +47,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="src/game/Game.hpp" />
+		<Unit filename="src/window/Window.cpp" />
 		<Unit filename="src/window/Window.hpp" />
 		<Extensions>
 			<code_completion />

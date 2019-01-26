@@ -411,3 +411,20 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
+1548540003 source:/home/nikolay/code/cpp/DamnedSpaceship/src/game/Game.cpp
+	"Game.hpp"
+	"../window/Window.hpp"
+
+1548362942 /home/nikolay/code/cpp/DamnedSpaceship/src/game/Game.hpp
+	<SFML/System/Time.hpp>
+	<SFML/System/Clock.hpp>
+	"../window/Window.hpp"
+
+1548540135 /home/nikolay/code/cpp/DamnedSpaceship/src/window/Window.hpp
+	<string>
+	<SFML/Graphics.hpp>
+
+1548540241 source:/home/nikolay/code/cpp/DamnedSpaceship/src/window/Window.cpp
+	"Window.hpp"
+	<SFML/Graphics.hpp>
+

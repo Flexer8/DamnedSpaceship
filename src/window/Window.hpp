@@ -9,7 +9,7 @@ class Window {
 
 public:
     Window();
-    Window(const std::string& title, const sf::Vector2u& window_size);
+    Window(const std::string title, const sf::Vector2u window_size);
     ~Window();
 
     void BeingDraw();
@@ -18,15 +18,15 @@ public:
     void Update();
 
     bool IsDone();
-    bool IsFoolscreen();
+    bool IsFullscreen();
     sf::Vector2u GetWindowSize();
 
     void ToggleFullScreen();
 
-    void Draw(sf::Drawable drawable);
+    void Draw(sf::Drawable& drawable);
 
 private:
-    void Setup(const std::string& title, const sf::Vector2u& window_size);
+    void Setup(const std::string title, const sf::Vector2u window_size);
     void Create();
     void Destroy();
 
