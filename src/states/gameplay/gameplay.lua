@@ -6,6 +6,9 @@
 local class = require "middleclass"
 local lovetoys = require "lovetoys.lovetoys"
 
+-- системы
+local ViewSystem = require "states.gameplay.ecs.systems.view_system"
+
 
 lovetoys.initialize({
     globals = true,
@@ -17,6 +20,11 @@ local Gameplay = class("Gameplay")
 
 function Gameplay:initialize()
     self.engine = Engine()
+
+    local view_system = ViewSystem()
+
+    self.engine:addSystem(view_system, "update")
+    self.engine:addSystem(view_system, "draw")
 end
 
 function Gameplay:update(dt)
