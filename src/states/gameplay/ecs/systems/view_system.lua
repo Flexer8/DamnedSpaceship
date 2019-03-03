@@ -5,19 +5,20 @@
 
 local class = require "middleclass"
 
+local StiViewer = require "utils.moduls.draw_modul.sti_viewer"
 
-local ViewSystem = class("ViewSystem")
+
+local ViewSystem = class("ViewSystem", System)
 
 function ViewSystem:initialize()
-    -- body...
-end
+    System.initialize(self)
 
-function ViewSystem:update(dt)
-    -- body...
+    self.viewer = StiViewer()
 end
 
 function ViewSystem:draw()
-    -- body...
+    self.viewer:draw()
+
 end
 
 function ViewSystem:requires()

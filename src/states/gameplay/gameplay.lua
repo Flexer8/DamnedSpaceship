@@ -23,7 +23,6 @@ function Gameplay:initialize()
 
     local view_system = ViewSystem()
 
-    self.engine:addSystem(view_system, "update")
     self.engine:addSystem(view_system, "draw")
 end
 
