@@ -1,19 +1,21 @@
 ---
 -- таблица с состоянием Gameplay
 
+local Gameplay = require "states.gameplay.gameplay"
+
 
 st_gameplay = {}
 
 function st_gameplay:init()
-	-- body...
+	self.gameplay = Gameplay:new()
 end
 
 function st_gameplay:update(dt)
-    -- body...
+    self.gameplay:update(dt)
 end
 
 function st_gameplay:draw()
-    -- body...
+    self.gameplay:draw()
 end
 
 return st_gameplay
